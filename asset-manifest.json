@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.190f0753.css",
+    "main.js": "/static/js/main.e4294490.js",
+    "static/js/787.3ba5e41c.chunk.js": "/static/js/787.3ba5e41c.chunk.js",
+    "static/media/bgimage.jpg": "/static/media/bgimage.ac71d09d0c6eadb631c9.jpg",
+    "static/media/support.png": "/static/media/support.63a49aa267dc2909a48a.png",
+    "static/media/user.png": "/static/media/user.58c53e0ca09838b237dc.png",
+    "static/media/python.png": "/static/media/python.6a5cbc319ab3ddf8ef92.png",
+    "static/media/physics.png": "/static/media/physics.86c8d9eba03e29814d2a.png",
+    "static/media/email.png": "/static/media/email.7f24e770d32221e20f98.png",
+    "static/media/rmlogo.png": "/static/media/rmlogo.362fb74ca9ae3e33b9c7.png",
+    "static/media/android.png": "/static/media/android.bbc06e49f101f46d7e28.png",
+    "static/media/css-3.png": "/static/media/css-3.dfd5413effc74c005496.png",
+    "static/media/java.png": "/static/media/java.f5dd86c3ef6ef3f85acf.png",
+    "static/media/folder.png": "/static/media/folder.f7eba91bd0be149b99f1.png",
+    "static/media/html.png": "/static/media/html.6e930594286d8afe4c79.png",
+    "static/media/js.png": "/static/media/js.3dfb665e058d08c99f28.png",
+    "static/media/right-arrow.png": "/static/media/right-arrow.4b2ecb9e3096acf27522.png",
+    "index.html": "/index.html",
+    "main.190f0753.css.map": "/static/css/main.190f0753.css.map",
+    "main.e4294490.js.map": "/static/js/main.e4294490.js.map",
+    "787.3ba5e41c.chunk.js.map": "/static/js/787.3ba5e41c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.190f0753.css",
+    "static/js/main.e4294490.js"
+  ]
+}
