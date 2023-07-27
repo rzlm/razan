@@ -1,0 +1,80 @@
+.hero-container {
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#060530+64,173e7c+100,207cca+100,7db9e8+100,bac1e6+100 */
+background: #060530; /* Old browsers */
+background: -moz-linear-gradient(45deg,  #060530 64%, #173e7c 100%, #207cca 100%, #7db9e8 100%, #bac1e6 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(45deg,  #060530 64%,#173e7c 100%,#207cca 100%,#7db9e8 100%,#bac1e6 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(45deg,  #060530 64%,#173e7c 100%,#207cca 100%,#7db9e8 100%,#bac1e6 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#060530', endColorstr='#bac1e6',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding-top: 10rem;
+
+
+}
+.hero-container::before {
+    position: absolute;
+    content: "";
+    background-repeat: no-repeat;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-image:url('../../assets/bgimage.jpg');
+    background-size: cover;
+    opacity: 0.2;
+    z-index: -0.3;
+  
+
+}
+.hero-text-container {
+    margin-bottom: 10rem;
+    
+}
+.hero-text-name {
+    color: var(--color-heading);
+    font-family: var(--font-family);
+    font-size: 60px;
+    background: #E6E9EE;
+    background: linear-gradient(to top left, #E6E9EE 0%, #8192E6 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.hero-text-job {
+    color: var(--color-subtext);
+    font-family: var(--font-family);
+    margin-top: 30px;
+}
+
+.hero-btn {
+    display: inline-block;
+    padding: 18px 24px;
+    border: 0;
+    text-decoration: none;
+    border-radius: 15px;
+    background-color: rgba(255,255,255,0.1);
+    border: 1px solid rgba(255,255,255,0.1);
+    backdrop-filter: blur(30px);
+    color: rgba(255,255,255,0.8);
+    font-size: 14px;
+    letter-spacing: 2px;
+    cursor: pointer;
+    text-transform: uppercase;
+    align-items: center;
+}
+.hero-btn:hover {
+    border: 1px solid white;
+
+
+}
+
+.hero-btn-container {
+    align-items: center;
+    padding: 2rem 2rem;
+
+}
+.hero-btn button {
+    font-family: var(--font-family);
+    font-size: 15px;
+}

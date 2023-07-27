@@ -1,0 +1,23 @@
+.sk-cont {
+   display: flex; 
+   flex-direction: row;
+   padding: 10px;
+   flex-wrap: wrap;
+   align-items: center;
+}
+
+.sk-name {
+    font-family: var(--font-family);
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--color-text);
+
+    line-height: 1.2rem;
+    letter-spacing: 0.09rem;
+    word-spacing: 0.5rem;
+}
+.sk-cont img {
+    height:12px;
+    width: 12px;
+    margin-right: 3px;
+}

@@ -1,0 +1,26 @@
+.portfolio-section-title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.portfolio-abt {
+    font-family: var(--font-family);
+    color: var(--color-text);
+    margin-bottom: 15px;
+
+}
+.portfolio-section-title img{
+    width: 30px;
+    height: 30px;
+    margin-right: 4px;
+}
+
+.portfolio-projects {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+    grid-auto-rows: auto;
+    
+    grid-gap: 1rem;
+}
